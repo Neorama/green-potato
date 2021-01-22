@@ -1,135 +1,135 @@
 {
-    "title": "Stackbit Libris Theme",
-    "palette": "blue",
-    "header": {
-        "type": "header",
-        "title": "Libris",
-        "logo_img": "images/logo.svg",
-        "logo_img_alt": "Libris logo",
-        "has_nav": true,
-        "nav_links": [
-            {
-                "type": "action_menu",
-                "label": "Home",
-                "url": "/",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "Docs",
-                "url": "/docs",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "Blog",
-                "url": "/blog",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "Sample Pages",
-                "url": "#",
-                "style": "link",
-                "has_subnav": true,
-                "subnav_links": [
-                    {
-                        "type": "action",
-                        "label": "Overview",
-                        "url": "/overview",
-                        "style": "link"
-                    },
-                    {
-                        "type": "action",
-                        "label": "Showcase",
-                        "url": "/showcase",
-                        "style": "link"
-                    }
-                ]
-            },
-            {
-                "type": "action_menu",
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
-                "type": "action_menu",
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "primary",
-                "has_subnav": false
-            }
-        ]
-    },
-    "footer": {
-        "subscribe_title": "Subscribe",
-        "subscribe_content": "Stay up to date with our latest developments.",
-        "has_subscribe": true,
-        "social_title": "Community",
-        "social_links": [
+  "title": "Stackbit Libris Theme",
+  "palette": "blue",
+  "header": {
+    "type": "header",
+    "title": "LibrisTest",
+    "logo_img": "images/logo.svg",
+    "logo_img_alt": "Libris logo",
+    "has_nav": true,
+    "nav_links": [
+      {
+        "type": "action_menu",
+        "label": "Home",
+        "url": "/",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "Docs",
+        "url": "/docs",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "Blog",
+        "url": "/blog",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "Sample Pages",
+        "url": "#",
+        "style": "link",
+        "has_subnav": true,
+        "subnav_links": [
           {
             "type": "action",
-            "label": "Twitter",
-            "style": "icon",
-            "url": "https://twitter.com/",
-            "new_window": true
-          },
-          {
-            "type": "action",
-            "label": "Instagram",
-            "style": "icon",
-            "url": "https://www.instagram.com/",
-            "new_window": true
-          },
-          {
-            "type": "action",
-            "style": "icon",
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/",
-            "new_window": true
-          }
-        ],
-        "tagline": "SaaS theme by Stackbit",
-        "logo_img": "images/logo.svg",
-        "has_social": true,
-        "content": "&copy; Stackbit. All rights reserved.",
-        "links": [
-          {
-            "type": "action",
-            "label": "Made with Stackbit",
-            "url": "https://www.stackbit.com",
-            "new_window": true
-          }
-        ],
-        "type": "footer",
-        "nav_title": "Company",
-        "nav_links": [
-          {
-            "type": "action",
-            "label": "overview",
-            "url": "/overview"
-          },
-          {
-            "type": "action",
-            "label": "Blog",
-            "url": "/blog"
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
           },
           {
             "type": "action",
             "label": "Showcase",
-            "url": "/showcase"
-          },
-          {
-            "type": "action",
-            "label": "Contact",
-            "url": "/contact"
+            "url": "/showcase",
+            "style": "link"
           }
-        ],
-        "has_nav": true
+        ]
+      },
+      {
+        "type": "action_menu",
+        "label": "Style Guide",
+        "url": "/style-guide",
+        "style": "link",
+        "has_subnav": false
+      },
+      {
+        "type": "action_menu",
+        "label": "GitHub",
+        "url": "https://github.com/",
+        "style": "primary",
+        "has_subnav": false
       }
+    ]
+  },
+  "footer": {
+    "subscribe_title": "Subscribe",
+    "subscribe_content": "Stay up to date with our latest developments.",
+    "has_subscribe": true,
+    "social_title": "Community",
+    "social_links": [
+      {
+        "type": "action",
+        "label": "Twitter",
+        "style": "icon",
+        "url": "https://twitter.com/",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "label": "Instagram",
+        "style": "icon",
+        "url": "https://www.instagram.com/",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "style": "icon",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/",
+        "new_window": true
+      }
+    ],
+    "tagline": "SaaS theme by Stackbit",
+    "logo_img": "images/logo.svg",
+    "has_social": true,
+    "content": "&copy; Stackbit. All rights reserved.",
+    "links": [
+      {
+        "type": "action",
+        "label": "Made with Stackbit",
+        "url": "https://www.stackbit.com",
+        "new_window": true
+      }
+    ],
+    "type": "footer",
+    "nav_title": "Company",
+    "nav_links": [
+      {
+        "type": "action",
+        "label": "overview",
+        "url": "/overview"
+      },
+      {
+        "type": "action",
+        "label": "Blog",
+        "url": "/blog"
+      },
+      {
+        "type": "action",
+        "label": "Showcase",
+        "url": "/showcase"
+      },
+      {
+        "type": "action",
+        "label": "Contact",
+        "url": "/contact"
+      }
+    ],
+    "has_nav": true
+  }
 }

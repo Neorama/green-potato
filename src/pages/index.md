@@ -13,9 +13,8 @@ sections:
         linkId: recent-posts
       - label: Features
         linkId: features1
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+    content: This section can contain a subtitle or tagline. The recommended length
+      is one to three sentences, but can be changed as you prefer.
     actions:
       - type: action
         label: Get Started
@@ -25,25 +24,28 @@ sections:
     title: A fully integrated suite of tools to streamline the vaccination process
     section_id: features1
     features:
-      - heading: Bridge the gap.
-        description: This section can contain a subtitle or tagline. The recommended length is
+      - heading: Bridge the gap1.
+        description: This section can contain a subtitle or tagline. The recommended
+          length is
         image: images/1.jpg
       - heading: Contactless Check-In.
-        description: This section can contain a subtitle or tagline. The recommended length is
+        description: This section can contain a subtitle or tagline. The recommended
+          length is
         image: images/1.jpg
       - heading: Customizable Care.
-        description: This section can contain a subtitle or tagline. The recommended length is
+        description: This section can contain a subtitle or tagline. The recommended
+          length is
         image: images/1.jpg
       - heading: Dynamic Efficiency.
-        description: This section can contain a subtitle or tagline. The recommended length is
+        description: This section can contain a subtitle or tagline. The recommended
+          length is
         image: images/1.jpg
   - type: section_hero
     title: Hero Section
     section_id: hero
     image: images/5.jpg
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+    content: This section can contain a subtitle or tagline. The recommended length
+      is one to three sentences, but can be changed as you prefer.
     actions:
       - type: action
         label: Get Started
@@ -59,9 +61,8 @@ sections:
     grid_items:
       - type: grid_item
         title: Documentation
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
+        content: Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam a
+          maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius.
         actions:
           - type: action
@@ -70,9 +71,8 @@ sections:
             style: link
       - type: grid_item
         title: Blog
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+        content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
+          non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
         actions:
           - type: action
             label: View Posts
@@ -80,24 +80,21 @@ sections:
             style: link
       - type: grid_item
         title: Style Guide1
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
+        content: Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam a
+          maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius.
         actions:
           - type: action
             label: Learn More
             url: /style-guide
             style: link
-
   - type: section_content
     title: A Section With An Image
     section_id: text-img
     image: images/jamstack.svg
     image_position: left
-    content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
+    content: Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit
+      amet cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
       consectetur lobortis.
     actions:
       - type: action
@@ -111,9 +108,8 @@ sections:
   - type: section_content
     title: A Section Without Image
     section_id: text-no-img
-    content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
+    content: Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit
+      amet cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
       consectetur lobortis.
     actions:
       - type: action
@@ -128,8 +124,7 @@ sections:
     grid_items:
       - type: grid_item
         title: Overview
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla tortor at, pulvinar orci.
         actions:
@@ -139,9 +134,8 @@ sections:
             style: link
       - type: grid_item
         title: Showcase
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
+        content: Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam a
+          maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius.
         actions:
           - type: action
