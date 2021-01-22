@@ -193,16 +193,32 @@ collections:
             label: Footer Configuration
             required: false
             fields:
+              - widget: image
+                name: logo_img
+                label: Logo
+                required: false
+                hint: The logo image displayed in the footer
               - widget: string
-                name: content
-                label: Footer Content
+                name: tagline
+                label: Footer Tagline
                 required: false
-                hint: The copyright text displayed in the footer
+                hint: The tagline displayed in the footer
+              - widget: boolean
+                name: has_nav
+                label: Enable Navigation Menu
+                required: false
+                default: true
+                hint: Display the secondary navigation menu in the footer
+              - widget: string
+                name: nav_title
+                label: Menu Title
+                required: false
+                hint: The title of the secondary menu displayed in the footer
               - widget: list
-                name: links
-                label: Links
+                name: nav_links
+                label: Navigation Menu Links
                 required: false
-                hint: List of links in the footer
+                hint: List of navigation links in footer
                 fields:
                   - widget: string
                     name: label
@@ -212,42 +228,17 @@ collections:
                     name: url
                     label: URL
                     required: true
-                  - widget: select
-                    name: style
-                    label: Style
-                    required: true
-                    default: link
-                    options:
-                      - link
-                      - primary
-                      - secondary
-                      - icon
-                  - widget: select
-                    name: icon_class
-                    label: Icon
+                  - widget: boolean
+                    name: primary
+                    label: Primary
                     required: false
-                    options:
-                      - dev
-                      - facebook
-                      - github
-                      - instagram
-                      - linkedin
-                      - pinterest
-                      - reddit
-                      - twitter
-                      - vimeo
-                      - youtube
+                    hint: Use primary color for this action
                   - widget: boolean
                     name: new_window
-                    label: Open in new tab/window
+                    label: Open in new window
                     required: false
-                    default: false
-                  - widget: boolean
-                    name: no_follow
-                    label: No follow
-                    required: false
-                    default: false
-                    hint: Add rel="nofollow" attribute to the link
+                    default: true
+                    hint: Should the link open a new tab
                   - widget: hidden
                     name: type
                     label: Object Type
@@ -260,11 +251,16 @@ collections:
                 required: false
                 default: true
                 hint: Display social links in the footer
+              - widget: string
+                name: social_title
+                label: Social Links Title
+                required: false
+                hint: The title of the social links list displayed in the footer
               - widget: list
                 name: social_links
                 label: Social Links
                 required: false
-                hint: List of social links in the footer
+                hint: The list of social links displayed in the footer
                 fields:
                   - widget: string
                     name: label
@@ -274,42 +270,71 @@ collections:
                     name: url
                     label: URL
                     required: true
-                  - widget: select
-                    name: style
-                    label: Style
-                    required: true
-                    default: link
-                    options:
-                      - link
-                      - primary
-                      - secondary
-                      - icon
-                  - widget: select
-                    name: icon_class
-                    label: Icon
+                  - widget: boolean
+                    name: primary
+                    label: Primary
                     required: false
-                    options:
-                      - dev
-                      - facebook
-                      - github
-                      - instagram
-                      - linkedin
-                      - pinterest
-                      - reddit
-                      - twitter
-                      - vimeo
-                      - youtube
+                    hint: Use primary color for this action
                   - widget: boolean
                     name: new_window
-                    label: Open in new tab/window
+                    label: Open in new window
                     required: false
-                    default: false
+                    default: true
+                    hint: Should the link open a new tab
+                  - widget: hidden
+                    name: type
+                    label: Object Type
+                    required: true
+                    hint: The type of the object
+                    default: action
+              - widget: boolean
+                name: has_subscribe
+                label: Enable Subscribe
+                required: false
+                default: true
+                hint: Display the newsletter subscription form in the footer
+              - widget: string
+                name: subscribe_title
+                label: Subscribe Title
+                required: false
+                hint: The title of the subscribe block displayed in the footer
+              - widget: string
+                name: subscribe_content
+                label: Subscribe Content
+                required: false
+                hint: >-
+                  The text content in the subscribe block displayed in the
+                  footer
+              - widget: string
+                name: content
+                label: Footer Content
+                required: false
+                hint: The copyright text displayed in the footer
+              - widget: list
+                name: links
+                label: Links
+                required: false
+                hint: A list of links displayed in the footer
+                fields:
+                  - widget: string
+                    name: label
+                    label: Label
+                    required: true
+                  - widget: string
+                    name: url
+                    label: URL
+                    required: true
                   - widget: boolean
-                    name: no_follow
-                    label: No follow
+                    name: primary
+                    label: Primary
                     required: false
-                    default: false
-                    hint: Add rel="nofollow" attribute to the link
+                    hint: Use primary color for this action
+                  - widget: boolean
+                    name: new_window
+                    label: Open in new window
+                    required: false
+                    default: true
+                    hint: Should the link open a new tab
                   - widget: hidden
                     name: type
                     label: Object Type
@@ -765,6 +790,124 @@ collections:
                 required: true
                 hint: The type of the object
                 default: section_grid
+          - name: section_features
+            widget: object
+            label: Feature Section
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                required: false
+                hint: The title of the section.
+              - widget: string
+                name: section_id
+                label: Section ID
+                required: false
+                hint: >-
+                  A unique identifier of the section, must not contain
+                  whitespace
+              - widget: string
+                name: heading
+                label: Heading
+                required: false
+                hint: The heading of the section
+              - widget: list
+                name: features
+                label: Feature Items
+                required: false
+                fields:
+                  - widget: string
+                    name: title
+                    label: Title
+                    required: false
+                    hint: The title of the item
+                  - widget: string
+                    name: heading
+                    label: Heading
+                    required: false
+                    hint: heading title
+                  - widget: image
+                    name: image
+                    label: Image
+                    required: false
+                    hint: The image of the item
+                  - widget: string
+                    name: image_alt
+                    label: Image Alt Text
+                    required: false
+                    hint: The alt text of the item image
+                  - widget: markdown
+                    name: description
+                    label: Description
+                    required: false
+                    hint: The text content of the item
+                  - widget: list
+                    name: actions
+                    label: Action Buttons
+                    required: false
+                    fields:
+                      - widget: string
+                        name: label
+                        label: Label
+                        required: true
+                      - widget: string
+                        name: url
+                        label: URL
+                        required: true
+                      - widget: select
+                        name: style
+                        label: Style
+                        required: true
+                        default: link
+                        options:
+                          - link
+                          - primary
+                          - secondary
+                          - icon
+                      - widget: select
+                        name: icon_class
+                        label: Icon
+                        required: false
+                        options:
+                          - dev
+                          - facebook
+                          - github
+                          - instagram
+                          - linkedin
+                          - pinterest
+                          - reddit
+                          - twitter
+                          - vimeo
+                          - youtube
+                      - widget: boolean
+                        name: new_window
+                        label: Open in new tab/window
+                        required: false
+                        default: false
+                      - widget: boolean
+                        name: no_follow
+                        label: No follow
+                        required: false
+                        default: false
+                        hint: Add rel="nofollow" attribute to the link
+                      - widget: hidden
+                        name: type
+                        label: Object Type
+                        required: true
+                        hint: The type of the object
+                        default: action
+                  - widget: hidden
+                    name: type
+                    label: Object Type
+                    required: true
+                    hint: The type of the object
+                    default: grid_item
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: section_features
           - name: section_hero
             widget: object
             label: Hero Section
@@ -852,6 +995,47 @@ collections:
                 required: true
                 hint: The type of the object
                 default: section_hero
+          - name: section_contact
+            widget: object
+            label: Contact Section
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                required: false
+                hint: The title of the section
+              - widget: string
+                name: section_id
+                label: Element ID
+                required: false
+                hint: >-
+                  Element ID can be used in links to scroll the page to this
+                  section when link clicked
+              - widget: string
+                name: subtitle
+                label: Subtitle
+                required: false
+                hint: The text shown below the title
+              - widget: markdown
+                name: content
+                label: Content
+                required: false
+                hint: 'Section content, appears before contact form'
+              - widget: select
+                name: background
+                label: Background
+                required: false
+                default: gray
+                hint: The background of the section
+                options:
+                  - gray
+                  - white
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: section_contact
       - widget: hidden
         name: template
         label: Template

@@ -8,6 +8,7 @@ let videoEmbeds = [
   'iframe[src*="vimeo.com"]'
 ];
 reframe(videoEmbeds.join(','));
+let scroll = new SmoothScroll('[data-scroll]');
 
 // Handle main navigation menu toggling on small screens
 function menuToggleHandler(e) {

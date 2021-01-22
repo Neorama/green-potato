@@ -35,6 +35,7 @@ export default class Page extends React.Component {
                 </header>
                 <div className="inner-md outer">
                   <div className="post-content">
+                    {console.log(this.props,"props")}
                     {htmlToReact(_.get(this.props, 'pageContext.html', null))}
                   </div>
                 </div>

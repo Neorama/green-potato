@@ -67,34 +67,69 @@
         ]
     },
     "footer": {
-        "type": "footer",
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=libris&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>",
-        "has_social": true,
+        "subscribe_title": "Subscribe",
+        "subscribe_content": "Stay up to date with our latest developments.",
+        "has_subscribe": true,
+        "social_title": "Community",
         "social_links": [
-            {
-                "type": "action",
-                "label": "Twitter",
-                "url": "https://twitter.com/",
-                "style": "icon",
-                "icon_class": "twitter",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "icon",
-                "icon_class": "linkedin",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "icon",
-                "icon_class": "github",
-                "new_window": true
-            }
-        ]
-    }
+          {
+            "type": "action",
+            "label": "Twitter",
+            "style": "icon",
+            "url": "https://twitter.com/",
+            "new_window": true
+          },
+          {
+            "type": "action",
+            "label": "Instagram",
+            "style": "icon",
+            "url": "https://www.instagram.com/",
+            "new_window": true
+          },
+          {
+            "type": "action",
+            "style": "icon",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/",
+            "new_window": true
+          }
+        ],
+        "tagline": "SaaS theme by Stackbit",
+        "logo_img": "images/logo.svg",
+        "has_social": true,
+        "content": "&copy; Stackbit. All rights reserved.",
+        "links": [
+          {
+            "type": "action",
+            "label": "Made with Stackbit",
+            "url": "https://www.stackbit.com",
+            "new_window": true
+          }
+        ],
+        "type": "footer",
+        "nav_title": "Company",
+        "nav_links": [
+          {
+            "type": "action",
+            "label": "overview",
+            "url": "/overview"
+          },
+          {
+            "type": "action",
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase"
+          },
+          {
+            "type": "action",
+            "label": "Contact",
+            "url": "/contact"
+          }
+        ],
+        "has_nav": true
+      }
 }

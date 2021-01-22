@@ -1,6 +1,42 @@
 ---
 title: Home
+excerpt: this is an excerpt
 sections:
+  - type: section_hero1
+    title: Hero Section1
+    section_id: hero
+    image: images/jamstack.svg
+    internalLinks:
+      - label: layouts
+        linkId: features-two-col
+      - label: Recent Posts
+        linkId: recent-posts
+      - label: Features
+        linkId: features1
+    content: >-
+      This section can contain a subtitle or tagline. The recommended length is
+      one to three sentences, but can be changed as you prefer.
+    actions:
+      - type: action
+        label: Get Started
+        url: /docs
+        style: secondary
+  - type: section_features
+    title: A fully integrated suite of tools to streamline the vaccination process
+    section_id: features1
+    features:
+      - heading: Bridge the gap.
+        description: This section can contain a subtitle or tagline. The recommended length is
+        image: images/1.jpg
+      - heading: Contactless Check-In.
+        description: This section can contain a subtitle or tagline. The recommended length is
+        image: images/1.jpg
+      - heading: Customizable Care.
+        description: This section can contain a subtitle or tagline. The recommended length is
+        image: images/1.jpg
+      - heading: Dynamic Efficiency.
+        description: This section can contain a subtitle or tagline. The recommended length is
+        image: images/1.jpg
   - type: section_hero
     title: Hero Section
     section_id: hero
@@ -13,6 +49,10 @@ sections:
         label: Get Started
         url: /docs
         style: primary
+  - type: section_posts
+    title: Latest Posts
+    section_id: recent-posts
+    background: gray
   - type: section_grid
     section_id: features
     col_number: three
@@ -39,7 +79,7 @@ sections:
             url: /blog
             style: link
       - type: grid_item
-        title: Style Guide
+        title: Style Guide1
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
@@ -49,6 +89,7 @@ sections:
             label: Learn More
             url: /style-guide
             style: link
+
   - type: section_content
     title: A Section With An Image
     section_id: text-img

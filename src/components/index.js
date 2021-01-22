@@ -10,6 +10,10 @@ import SectionCta from './SectionCta';
 import SectionDocs from './SectionDocs';
 import SectionGrid from './SectionGrid';
 import SectionHero from './SectionHero';
+import SectionHero1 from './SectionHero1';
+import SectionPosts from './SectionPosts';
+import SectionContact from './SectionContact';
+import SectionFeatures from './SectionFeatures';
 import Submenu from './Submenu';
 import Layout from './Layout';
 
@@ -26,6 +30,10 @@ export {
     SectionDocs,
     SectionGrid,
     SectionHero,
+    SectionHero1,
+    SectionFeatures,
+    SectionPosts,
+    SectionContact,
     Submenu,
     Layout
 };
@@ -43,6 +51,10 @@ export default {
     SectionDocs,
     SectionGrid,
     SectionHero,
+    SectionHero1,
+    SectionFeatures,
+    SectionPosts,
+    SectionContact,
     Submenu,
     Layout
 };
