@@ -11,7 +11,6 @@ export default class SectionPosts extends React.Component {
         return (
 
             <section id={_.get(section, 'section_id', null)} className={'container mt-3 mb-3'}>
-
                 { features && (
                     <div class="row">
                         <div className="col-12">
