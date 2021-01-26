@@ -18,7 +18,7 @@ export default class BlogPostFooter extends React.Component {
                 }
                 </time>
                 {_.get(post, 'frontmatter.author', null) && ((() => {
-                    console.log(this.props.pageContext.site.data,"Data");
+                    //console.log(this.props.pageContext.site.data,"Data");
                     let author = getData(this.props.pageContext.site.data, _.get(post, 'frontmatter.author', null));
                     return (', by ' + author.first_name  + author.last_name);
                 })())}

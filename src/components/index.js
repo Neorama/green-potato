@@ -13,7 +13,10 @@ import SectionHero from './SectionHero';
 import SectionHero1 from './SectionHero1';
 import SectionPosts from './SectionPosts';
 import SectionContact from './SectionContact';
+import SectionTabs from './SectionTabs';
+import SectionCarousel from './SectionCarousel';
 import SectionFeatures from './SectionFeatures';
+import SectionClients from './SectionClients';
 import Submenu from './Submenu';
 import Layout from './Layout';
 
@@ -32,8 +35,11 @@ export {
     SectionHero,
     SectionHero1,
     SectionFeatures,
+    SectionClients,
     SectionPosts,
     SectionContact,
+    SectionTabs,
+    SectionCarousel,
     Submenu,
     Layout
 };
@@ -53,8 +59,11 @@ export default {
     SectionHero,
     SectionHero1,
     SectionFeatures,
+    SectionClients,
     SectionPosts,
     SectionContact,
+    SectionTabs,
+    SectionCarousel,
     Submenu,
     Layout
 };

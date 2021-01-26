@@ -23,7 +23,13 @@ export default class SectionHero1 extends React.Component {
                   {markdownify(_.get(section, 'content', null))}
                 </div>
                 )}
-            
+                  {_.get(section, 'actions', null) && (
+                <div className="row mt-3">
+                    <div className="col-12">
+                  <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
+                  </div>
+                </div>
+                )}
                 {
                     internalLinks && (
                         <ul class="nav nav-pills">
@@ -38,13 +44,7 @@ export default class SectionHero1 extends React.Component {
                         
                     )
                 }
-                {_.get(section, 'actions', null) && (
-                <div className="row mt-3">
-                    <div className="col-12">
-                  <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
-                  </div>
-                </div>
-                )}
+            
               </div>
               {_.get(section, 'image', null) && (
 

@@ -4,7 +4,7 @@
   "header": {
     "type": "header",
     "title": "LibrisTest",
-    "logo_img": "images/logo.svg",
+    "logo_img": "images/strsi_government_solution_logo.svg",
     "logo_img_alt": "Libris logo",
     "has_nav": true,
     "nav_links": [
@@ -17,10 +17,51 @@
       },
       {
         "type": "action_menu",
-        "label": "Docs",
-        "url": "/docs",
+        "label": "Programs",
+        "url": "#",
         "style": "link",
-        "has_subnav": false
+        "has_subnav": true,
+        "subnav_links": [
+          {
+            "type": "action",
+            "label": "Employment Services",
+            "url": "/employment",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Health & Human Services",
+            "url": "/health-Human",
+            "style": "link"
+          }
+        ]
+      },
+      {
+        "type": "action_menu",
+        "label": "Products & Solutions",
+        "url": "#",
+        "style": "link",
+        "has_subnav": true,
+        "subnav_links": [
+          {
+            "type": "action",
+            "label": "Mandated Reporter",
+            "url": "/mandated-reporter",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Family Provider Portal",
+            "url": "/fpp",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Patient Scheduling Solution",
+            "url": "/pss",
+            "style": "link"
+          }
+        ]
       },
       {
         "type": "action_menu",
@@ -47,21 +88,246 @@
             "label": "Showcase",
             "url": "/showcase",
             "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
+          }, {
+            "type": "action",
+            "label": "Overview",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase",
+            "style": "link"
           }
         ]
       },
       {
         "type": "action_menu",
-        "label": "Style Guide",
-        "url": "/style-guide",
+        "label": "About Us",
+        "url": "/aboutus",
         "style": "link",
-        "has_subnav": false
-      },
-      {
-        "type": "action_menu",
-        "label": "GitHub",
-        "url": "https://github.com/",
-        "style": "primary",
         "has_subnav": false
       }
     ]
@@ -75,33 +341,32 @@
       {
         "type": "action",
         "label": "Twitter",
-        "style": "icon",
+        
+        "icon_class": "twitter",
         "url": "https://twitter.com/",
         "new_window": true
       },
       {
         "type": "action",
         "label": "Instagram",
-        "style": "icon",
         "url": "https://www.instagram.com/",
         "new_window": true
       },
       {
         "type": "action",
-        "style": "icon",
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/",
         "new_window": true
       }
     ],
-    "tagline": "SaaS theme by Stackbit",
-    "logo_img": "images/logo.svg",
+    "tagline": "www.strsigs.com",
+    "logo_img": "images/strsi_government_solution_logo.svg",
     "has_social": true,
-    "content": "&copy; Stackbit. All rights reserved.",
+    "content": "&copy; www.strsigs.com. All rights reserved.",
     "links": [
       {
         "type": "action",
-        "label": "Made with Stackbit",
+        "label": "www.strsigs.com",
         "url": "https://www.stackbit.com",
         "new_window": true
       }

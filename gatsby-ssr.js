@@ -19,7 +19,9 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
             <script src={withPrefix('assets/js/main.js')}/>
             <script src={withPrefix('assets/js/page-load.js')}/>
             <script src={withPrefix('assets/js/page-unload.js')}/>
-            
+            <script src={withPrefix('assets/js/jquery.js')}/>
+            <script src={withPrefix('assets/js/bootstrap.bundle.min.js')}/>
+
         </React.Fragment>
     ]);
 

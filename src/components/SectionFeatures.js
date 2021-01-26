@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import CtaButtons from './CtaButtons';
 
 import { htmlToReact, withPrefix } from '../utils';
 
@@ -10,7 +11,7 @@ export default class SectionPosts extends React.Component {
         let features = _.get(section, 'features', null);
         return (
 
-            <section id={_.get(section, 'section_id', null)} className={'container mt-3 mb-3'}>
+            <section id={_.get(section, 'section_id', null)} className={' featureSection container mt-3 mb-3'}>
                 { features && (
                     <div class="row">
                         <div className="col-12">
@@ -27,6 +28,11 @@ export default class SectionPosts extends React.Component {
                                     </div>
                                 <h5>{htmlToReact(_.get(feature, 'heading', null))}</h5>
                                 <p> {htmlToReact(_.get(feature, 'description', null))}</p>
+                                {_.get(feature, 'actions', null) && (
+                                <div className="block-buttons">
+                                <CtaButtons {...this.props} actions={_.get(feature, 'actions', null)} />
+                                </div>
+                                )}
                             </div>
                         ))}
                     </div>

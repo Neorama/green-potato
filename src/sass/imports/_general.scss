@@ -1,9 +1,10 @@
 html {
-  font-family: $font-primary;
+  font-family: $font-primary!important;
   font-size: 100%;
 }
 
 body {
+  font-family: $font-primary!important;
   background: $gray-100;
   color: $gray-600;
   line-height: 1.625;

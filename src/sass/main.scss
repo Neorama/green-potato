@@ -1,3 +1,7 @@
+
+@import "bootstrap-4.3.1-dist/css/bootstrap.min.css";
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 @import "imports/functions";
 @import "imports/variables";
 @import "imports/reset";
@@ -15,5 +19,51 @@
 @import "imports/sections";
 @import "imports/footer";
 @import "imports/palettes";
-@import "bootstrap-4.3.1-dist/css/bootstrap.min.css";
+
 //@import "imports/prism";
+
+.slide-item{
+    position: relative;
+}
+.slide-item img{
+    width:100%;
+}
+.slide-item .title{
+    position: absolute;
+    left:50px;
+    top: 30%;
+    z-index: 1;
+    color: #fff;
+}
+.slick-prev{
+    z-index: 1;
+    left: 25px;
+}
+.slick-next{
+    z-index: 1;
+    right: 25px;
+}
+.featureSection .block-buttons{
+    justify-content: flex-start;
+}
+.feature-service-list{
+    margin-top: 30px;
+}
+.site-logo img{
+    width: 150px;
+}
+.client-wrap{
+    img{
+        opacity: 0.6;
+        transition: all 500ms;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+.nav-tabs{
+    .nav-link{
+        text-decoration: none;
+        color: $gray-700;
+    }
+}

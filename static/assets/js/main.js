@@ -1,3 +1,4 @@
+
 window.onGatsbyInitialClientRender = function() {
 /**
  * Main JS file for theme behaviours
@@ -8,8 +9,15 @@ let videoEmbeds = [
   'iframe[src*="vimeo.com"]'
 ];
 reframe(videoEmbeds.join(','));
-let scroll = new SmoothScroll('[data-scroll]');
 
+console.log("hi there");
+let scroll = new SmoothScroll('[data-scroll]');
+// (function tooltip (){
+//   console.log(window.$('.btn'),"hi");
+//   window.$(function () {
+//     $('[data-toggle="tooltip"]').tooltip()
+//   })
+// })();
 // Handle main navigation menu toggling on small screens
 function menuToggleHandler(e) {
   e.preventDefault();
@@ -27,6 +35,8 @@ function submenuToggleHandler(e) {
   e.preventDefault();
   this.parentNode.classList.toggle('active');
 }
+
+
 
 window.addMainNavigationHandlers = function() {
   const menuToggle = document.querySelectorAll('.menu-toggle');

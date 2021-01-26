@@ -1,7 +1,8 @@
 .site-header {
   background: #fff;
-  padding-bottom: 1.25em;
-  padding-top: 1.125em;
+  // padding-bottom: 1.25em;
+  // padding-top: 1.125em;
+  position: relative;
 }
 
 .site-header-inside {
@@ -40,7 +41,6 @@
 }
 
 .menu-item {
-  position: relative;
 
   &.current {
     color: $color-primary;
@@ -97,8 +97,8 @@
   .menu-item {
     display: inline-block;
     margin: 0 0 0 1.25em;
-    padding-bottom: 0.1875em;
-    padding-top: 0.1875em;
+    padding-bottom: 1.25em;
+    padding-top: 1.125em;
 
     a {
       padding-bottom: 0.5em;
@@ -161,7 +161,7 @@
     opacity: 0;
     padding: 0.5em 0;
     position: absolute;
-    text-align: left;
+    text-align: right;
     top: 100%;
     -webkit-transition: opacity .2s, visibility 0s .2s;
     transition: opacity .2s, visibility 0s .2s;
@@ -170,7 +170,7 @@
     z-index: 99;
 
     .menu-item {
-      display: block;
+      display: inline-block;
       margin: 0;
       padding: 0 1em;
     }
