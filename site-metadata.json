@@ -65,14 +65,14 @@
       },
       {
         "type": "action_menu",
-        "label": "Blog",
-        "url": "/blog",
+        "label": "Client Stories",
+        "url": "/clientstories",
         "style": "link",
         "has_subnav": false
       },
       {
         "type": "action_menu",
-        "label": "Sample Pages",
+        "label": "Innovation & Technology",
         "url": "#",
         "style": "link",
         "has_subnav": true,

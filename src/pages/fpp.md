@@ -11,12 +11,13 @@ sections:
         url: /docs
         style: secondary
     internalLinks:
-      - label: layouts
-        linkId: features-two-col
-      - label: Basic
-        linkId: basicInquiry
       - label: Features
         linkId: features1
+      - label: Basic
+        linkId: basicInquiry
+      - label: Intermediate
+        linkId: intermediate
+
     content: There is a growing need for new foster homes. Ensuring every child has a safe, happy, and healthy permanent homes is a substantial effort. All Child Welfare information must be carefully maintained, reviewed, and verified. The Family Provider Portal makes it easier for agencies and families to stay informed any day, anytime, and anywhere.
   - type: section_features
     title: ""
@@ -73,7 +74,7 @@ sections:
                       </ul>
   - type: section_content
     title: Intermediate. Mobile-Friendly Initial Inquiry and an Online Application Process
-    section_id: text-img
+    section_id: intermediate
     image: images/about-us2.jpg
     image_position: right
     content: Families can view and maintain information about their household and children in their care. The family can also view more information about potential placement requests. licensing activities.<iframe width="520" height="315" src="https://www.youtube.com/embed/jLszQDjEZ2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
