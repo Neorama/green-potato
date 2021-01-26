@@ -25,9 +25,9 @@ export default class Body extends React.Component {
                       
                    
                     <body className={'palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette', null)} />
-                    <script src={withPrefix('assets/js/jquery.js')}/>
+                    {/* <script src={withPrefix('assets/js/jquery.js')}/>
                        <script src={withPrefix('assets/js/bootstrap.bundle.min.js')}/>
-                        
+                         */}
                    </Helmet>
                 <div id="page" className="site">
                   <Header {...this.props} />

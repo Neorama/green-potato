@@ -1,12 +1,9 @@
 import React from 'react';
 import _ from 'lodash';
-
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 import { htmlToReact, withPrefix } from '../utils';
-// if (typeof window !== 'undefined') {
-//     window.jQuery = window.$ = require('jquery');
-//     require('boo`t`strap');
-// }
-//htmlToReact(_.get(section, 'subtitle', null))
+
 export default class SectionTabs extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
@@ -15,7 +12,42 @@ export default class SectionTabs extends React.Component {
 
             <section id={_.get(section, 'section_id', null)} className={'container mt-3 mb-3'}>
      
-                {
+     {
+ <Tabs>
+ <TabList>
+ {
+                            tabs && (
+                                _.map(tabs,(tab,tab_idx)=>(
+                                        <Tab>{_.get(tab, 'tabName', null)}</Tab>
+                            ))
+                                
+                            )
+                        }
+
+ </TabList>
+
+ {
+                            tabs && (
+                                _.map(tabs,(tab,tab_idx)=>(
+                                    <TabPanel>
+                                    <div className="row">
+                                        <div className="col-md-6">
+                                        {htmlToReact(_.get(tab, 'content', null))}
+                                            </div>
+                                            <div className="col-md-6">
+                                                <img src={_.get(tab,"image",null)}/>
+                                            </div> 
+                                        
+                                        </div>
+                                  </TabPanel>
+                            ))
+                                
+                            )
+                        }
+
+</Tabs>
+     }
+                {/* {
                     
                     <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
                         {
@@ -54,7 +86,7 @@ export default class SectionTabs extends React.Component {
                             )
                         }
                     </div>
-                    }
+                    } */}
                
             </section>
         );
