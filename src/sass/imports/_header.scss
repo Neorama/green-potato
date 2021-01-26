@@ -2,7 +2,6 @@
   background: #fff;
   // padding-bottom: 1.25em;
   // padding-top: 1.125em;
-  position: relative;
 }
 
 .site-header-inside {
@@ -78,6 +77,10 @@
 }
 
 @media only screen and (min-width: 801px) {
+  .site-header{
+  position: relative;
+
+  }
   #menu-open,
   #menu-close {
     display: none;
@@ -281,7 +284,7 @@
   .menu-item {
     display: block;
     margin: 0;
-
+    position: relative;
     &:not(.menu-button) {
       border-bottom: 1px solid $gray-300;
 
