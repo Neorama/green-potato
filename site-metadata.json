@@ -26,13 +26,15 @@
             "type": "action",
             "label": "Employment Services",
             "url": "/employment",
-            "style": "link"
+            "style": "link",
+            "icon": "/images/2.jpg"
           },
           {
             "type": "action",
             "label": "Health & Human Services",
             "url": "/health-Human",
-            "style": "link"
+            "style": "link",
+            "icon": "/images/10.jpg"
           }
         ]
       },
@@ -47,19 +49,22 @@
             "type": "action",
             "label": "Mandated Reporter",
             "url": "/mandated-reporter",
-            "style": "link"
+            "style": "link",
+            "icon": "/images/10.jpg"
           },
           {
             "type": "action",
             "label": "Family Provider Portal",
             "url": "/fpp",
-            "style": "link"
+            "style": "link",
+            "icon": "/images/10.jpg"
           },
           {
             "type": "action",
             "label": "Patient Scheduling Solution",
             "url": "/pss",
-            "style": "link"
+            "style": "link",
+            "icon": "/images/3.jpg"
           }
         ]
       },
@@ -79,48 +84,48 @@
         "subnav_links": [
           {
             "type": "action",
-            "icon":"/images/3.jpg",
-            "content":"online Appointments & reservations",
+            "icon": "/images/1.jpg",
+            "content": "online Appointments & reservations",
             "label": "Employment Services",
             "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "icon":"/images/7.jpg",
-            "content":"online Appointments & reservations",
+            "icon": "/images/7.jpg",
+            "content": "online Appointments & reservations",
             "label": "Employment Services",
             "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "icon":"/images/3.jpg",
-            "content":"online Appointments & reservations",
+            "icon": "/images/3.jpg",
+            "content": "online Appointments & reservations",
             "label": "Employment Services",
             "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "icon":"/images/3.jpg",
-            "content":"online Appointments & reservations",
+            "icon": "/images/3.jpg",
+            "content": "online Appointments & reservations",
             "label": "Employment Services",
             "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "icon":"/images/3.jpg",
-            "content":"online Appointments & reservations",
+            "icon": "/images/3.jpg",
+            "content": "online Appointments & reservations",
             "label": "Employment Services",
             "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "icon":"/images/3.jpg",
-            "content":"online Appointments & reservations",
+            "icon": "/images/3.jpg",
+            "content": "online Appointments & reservations",
             "label": "Health & Human Services",
             "url": "/health-Human",
             "style": "link"
@@ -175,7 +180,7 @@
       {
         "type": "action",
         "label": "www.strsigs.com",
-        "style":"link",
+        "style": "link",
         "url": "https://www.strsigs.com",
         "new_window": true
       }
@@ -184,98 +189,105 @@
     "nav_title": "Company",
     "nav_links": [
       {
-        "groupHeading":"Products",
-        "links":[ {
-          "type": "action",
-          "label": "overview",
-          "url": "/overview"
-        },
-        {
-          "type": "action",
-          "label": "Blog",
-          "url": "/blog"
-        },
-        {
-          "type": "action",
-          "label": "Showcase",
-          "url": "/showcase"
-        },
-        {
-          "type": "action",
-          "label": "Contact",
-          "url": "/contact"
-        }]
+        "groupHeading": "Products",
+        "links": [
+          {
+            "type": "action",
+            "label": "overview",
+            "url": "/overview"
+          },
+          {
+            "type": "action",
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase"
+          },
+          {
+            "type": "action",
+            "label": "Contact",
+            "url": "/contact"
+          }
+        ]
       },
       {
-        "groupHeading":"Technology",
-        "links":[ {
-          "type": "action",
-          "label": "overview",
-          "url": "/overview"
-        },
-        {
-          "type": "action",
-          "label": "Blog",
-          "url": "/blog"
-        },
-        {
-          "type": "action",
-          "label": "Showcase",
-          "url": "/showcase"
-        },
-        {
-          "type": "action",
-          "label": "Contact",
-          "url": "/contact"
-        }]
+        "groupHeading": "Technology",
+        "links": [
+          {
+            "type": "action",
+            "label": "overview",
+            "url": "/overview"
+          },
+          {
+            "type": "action",
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase"
+          },
+          {
+            "type": "action",
+            "label": "Contact",
+            "url": "/contact"
+          }
+        ]
       },
       {
-        "groupHeading":"Technology",
-        "links":[ {
-          "type": "action",
-          "label": "overview",
-          "url": "/overview"
-        },
-        {
-          "type": "action",
-          "label": "Blog",
-          "url": "/blog"
-        },
-        {
-          "type": "action",
-          "label": "Showcase",
-          "url": "/showcase"
-        },
-        {
-          "type": "action",
-          "label": "Contact",
-          "url": "/contact"
-        }]
+        "groupHeading": "Technology",
+        "links": [
+          {
+            "type": "action",
+            "label": "overview",
+            "url": "/overview"
+          },
+          {
+            "type": "action",
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase"
+          },
+          {
+            "type": "action",
+            "label": "Contact",
+            "url": "/contact"
+          }
+        ]
       },
       {
-        "groupHeading":"Technology",
-        "links":[ {
-          "type": "action",
-          "label": "overview",
-          "url": "/overview"
-        },
-        {
-          "type": "action",
-          "label": "Blog",
-          "url": "/blog"
-        },
-        {
-          "type": "action",
-          "label": "Showcase",
-          "url": "/showcase"
-        },
-        {
-          "type": "action",
-          "label": "Contact",
-          "url": "/contact"
-        }]
+        "groupHeading": "Technology",
+        "links": [
+          {
+            "type": "action",
+            "label": "overview",
+            "url": "/overview"
+          },
+          {
+            "type": "action",
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "type": "action",
+            "label": "Showcase",
+            "url": "/showcase"
+          },
+          {
+            "type": "action",
+            "label": "Contact",
+            "url": "/contact"
+          }
+        ]
       }
-     
     ],
     "has_nav": true
   }
