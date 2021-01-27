@@ -130,6 +130,14 @@ collections:
                         name: label
                         label: Label
                         required: true
+                      - widget: image
+                        name: icon
+                        label: Image
+                        required: true
+                      - widget: string
+                        name: content
+                        label: SubTitle
+                        required: false
                       - widget: string
                         name: url
                         label: URL
@@ -221,30 +229,40 @@ collections:
                 hint: List of navigation links in footer
                 fields:
                   - widget: string
-                    name: label
-                    label: Label
+                    name: groupHeading
+                    label: GroupHeading
                     required: true
-                  - widget: string
-                    name: url
-                    label: URL
+                  - widget: list
+                    name: links
+                    label: List of links
                     required: true
-                  - widget: boolean
-                    name: primary
-                    label: Primary
-                    required: false
-                    hint: Use primary color for this action
-                  - widget: boolean
-                    name: new_window
-                    label: Open in new window
-                    required: false
-                    default: true
-                    hint: Should the link open a new tab
-                  - widget: hidden
-                    name: type
-                    label: Object Type
-                    required: true
-                    hint: The type of the object
-                    default: action
+                    fields:
+                      - widget: string
+                        name: label
+                        label: Label
+                        required: true
+                      - widget: string
+                        name: url
+                        label: URL
+                        required: true
+                      - widget: boolean
+                        name: primary
+                        label: Primary
+                        required: false
+                        hint: Use primary color for this action
+                      - widget: boolean
+                        name: new_window
+                        label: Open in new window
+                        required: false
+                        default: true
+                        hint: Should the link open a new tab
+                      - widget: hidden
+                        name: type
+                        label: Object Type
+                        required: true
+                        hint: The type of the object
+                        default: action                    
+                  
               - widget: boolean
                 name: has_social
                 label: Enable Social Links

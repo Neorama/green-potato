@@ -79,246 +79,50 @@
         "subnav_links": [
           {
             "type": "action",
-            "label": "Overview",
-            "url": "/overview",
+            "icon":"/images/3.jpg",
+            "content":"online Appointments & reservations",
+            "label": "Employment Services",
+            "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
+            "icon":"/images/7.jpg",
+            "content":"online Appointments & reservations",
+            "label": "Employment Services",
+            "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "label": "Overview",
-            "url": "/overview",
+            "icon":"/images/3.jpg",
+            "content":"online Appointments & reservations",
+            "label": "Employment Services",
+            "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
+            "icon":"/images/3.jpg",
+            "content":"online Appointments & reservations",
+            "label": "Employment Services",
+            "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
+            "icon":"/images/3.jpg",
+            "content":"online Appointments & reservations",
+            "label": "Employment Services",
+            "url": "/employment",
             "style": "link"
           },
           {
             "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
-            "style": "link"
-          }, {
-            "type": "action",
-            "label": "Overview",
-            "url": "/overview",
-            "style": "link"
-          },
-          {
-            "type": "action",
-            "label": "Showcase",
-            "url": "/showcase",
+            "icon":"/images/3.jpg",
+            "content":"online Appointments & reservations",
+            "label": "Health & Human Services",
+            "url": "/health-Human",
             "style": "link"
           }
         ]
@@ -341,7 +145,7 @@
       {
         "type": "action",
         "label": "Twitter",
-        
+        "style": "icon",
         "icon_class": "twitter",
         "url": "https://twitter.com/",
         "new_window": true
@@ -349,12 +153,16 @@
       {
         "type": "action",
         "label": "Instagram",
+        "style": "icon",
+        "icon_class": "instagram",
         "url": "https://www.instagram.com/",
         "new_window": true
       },
       {
         "type": "action",
         "label": "LinkedIn",
+        "style": "icon",
+        "icon_class": "linkedin",
         "url": "https://www.linkedin.com/",
         "new_window": true
       }
@@ -362,12 +170,13 @@
     "tagline": "www.strsigs.com",
     "logo_img": "images/strsi_government_solution_logo.svg",
     "has_social": true,
-    "content": "&copy; www.strsigs.com. All rights reserved.",
+    "content": "&copy; strsi. All rights reserved.",
     "links": [
       {
         "type": "action",
         "label": "www.strsigs.com",
-        "url": "https://www.stackbit.com",
+        "style":"link",
+        "url": "https://www.strsigs.com",
         "new_window": true
       }
     ],
@@ -375,25 +184,98 @@
     "nav_title": "Company",
     "nav_links": [
       {
-        "type": "action",
-        "label": "overview",
-        "url": "/overview"
+        "groupHeading":"Products",
+        "links":[ {
+          "type": "action",
+          "label": "overview",
+          "url": "/overview"
+        },
+        {
+          "type": "action",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "type": "action",
+          "label": "Showcase",
+          "url": "/showcase"
+        },
+        {
+          "type": "action",
+          "label": "Contact",
+          "url": "/contact"
+        }]
       },
       {
-        "type": "action",
-        "label": "Blog",
-        "url": "/blog"
+        "groupHeading":"Technology",
+        "links":[ {
+          "type": "action",
+          "label": "overview",
+          "url": "/overview"
+        },
+        {
+          "type": "action",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "type": "action",
+          "label": "Showcase",
+          "url": "/showcase"
+        },
+        {
+          "type": "action",
+          "label": "Contact",
+          "url": "/contact"
+        }]
       },
       {
-        "type": "action",
-        "label": "Showcase",
-        "url": "/showcase"
+        "groupHeading":"Technology",
+        "links":[ {
+          "type": "action",
+          "label": "overview",
+          "url": "/overview"
+        },
+        {
+          "type": "action",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "type": "action",
+          "label": "Showcase",
+          "url": "/showcase"
+        },
+        {
+          "type": "action",
+          "label": "Contact",
+          "url": "/contact"
+        }]
       },
       {
-        "type": "action",
-        "label": "Contact",
-        "url": "/contact"
+        "groupHeading":"Technology",
+        "links":[ {
+          "type": "action",
+          "label": "overview",
+          "url": "/overview"
+        },
+        {
+          "type": "action",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "type": "action",
+          "label": "Showcase",
+          "url": "/showcase"
+        },
+        {
+          "type": "action",
+          "label": "Contact",
+          "url": "/contact"
+        }]
       }
+     
     ],
     "has_nav": true
   }

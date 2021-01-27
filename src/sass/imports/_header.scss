@@ -43,6 +43,10 @@
 
   &.current {
     color: $color-primary;
+
+    a.cardlink{
+      background-color: $gray-100;
+    }
   }
 
   a {
@@ -51,6 +55,7 @@
       font-size: 0.9375em;
       line-height: 1.5;
     }
+   
   }
 }
 
@@ -62,7 +67,18 @@
       text-decoration: none;
 
       &:hover {
-        color: $color-primary;
+        color: $gray-500;
+      }
+    } 
+    &.cardlink{
+      display: flex;
+      text-align: left;
+      margin:0 10px;
+      color: $gray-600;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba($gray-600,.2);
+      &:hover {
+        background-color: $gray-100;
       }
     }
   }
@@ -308,6 +324,9 @@
           width: 100%;
         }
       }
+      &.cardlink{
+        display: flex;
+      }
     }
 
     &.has-children > a {
@@ -368,5 +387,16 @@
     position: absolute;
     right: $container-padding;
     top: $container-padding;
+  }
+  .cardlink{
+    .textwrap{
+      padding-left: 20px;
+      display: inline-block;
+      width: calc(100% - 80px);
+    }
+    .linkIcon{
+      display: inline-block;
+      width: 75px;
+    }
   }
 }

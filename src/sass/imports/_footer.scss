@@ -3,24 +3,24 @@
  * ----------------------------------------------------------------------------
  */
  .site-footer {
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(29, 51, 124);
   padding-bottom: 1.5em;
   padding-top: 1.5em;
 }
-#colophon {
-  background: _palette(secondary);
-  color: _palette(meta);
+// #colophon {
+//   background: _palette(secondary);
+//   color: _palette(meta);
 
-  a {
-    color: #fff;
+//   a {
+//     color: #fff;
 
-    &:hover,
-    &:focus {
-      border-color: currentColor;
-      color: _palette(border);
-    }
-  }
-}
+//     &:hover,
+//     &:focus {
+//       border-color: currentColor;
+//       color: _palette(border);
+//     }
+//   }
+// }
 
 .footer-top {
   padding-bottom: 2.5rem;
@@ -80,8 +80,7 @@
   }
 }
 
-.secondary-nav,
-.social-nav {
+.secondary-nav {
   box-sizing: border-box;
   -webkit-flex: 1 1 150px;
   -ms-flex: 1 1 150px;
@@ -93,6 +92,9 @@
     list-style: none;
     margin-bottom: 2.5rem;
     padding: 0;
+    h5{
+      color: #ffffff;
+    }
   }
 
   li {
@@ -100,10 +102,30 @@
   }
 
   a {
+    text-decoration: none;
     border: 0;
+    color:$gray-100;
+    &:hover{
+    text-decoration: underline
+
+    }
   }
 }
 
+.social-nav{
+  .widget-title{
+    color: #ffffff;
+    display: inline;
+  }
+  ul{
+    list-style: none;
+    margin-bottom: 2.5rem;
+    padding: 0;
+  }
+  li{
+    display: inline;
+  }
+}
 .site-info {
   border-top: 1px solid _palette(primary);
   font-size: 14px;
@@ -111,6 +133,10 @@
   padding-bottom: 1.66667rem;
   padding-top: 1.66667rem;
   text-align: center;
+  color: #ffffff;
+  a{
+    color: #ffffff;
+  }
 }
 
 @media only screen and (max-width: 800px) {
