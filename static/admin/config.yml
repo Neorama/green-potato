@@ -1136,7 +1136,7 @@ collections:
                     required: true
                     hint: The type of the object
                     default: action
-          - name: section_tabs
+          - name: section_posts
             widget: object
             label: Latest Blog Posts Section
             fields:
