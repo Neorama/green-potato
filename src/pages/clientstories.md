@@ -1,5 +1,5 @@
 ---
-title: Showcase
+title: client Stories
 sections:
   - type: section_hero
     title: Client Stoires

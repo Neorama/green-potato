@@ -1,7 +1,7 @@
 ---
-title: Overview
+title: family Provider Portal
 sections:
-  - type: section_hero1
+  - type: section_heroAlt
     title: The Family Provider Portal
     section_id: fpp1
     image: images/image1.png

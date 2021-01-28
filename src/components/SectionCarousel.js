@@ -15,7 +15,9 @@ export default class SectionCarousel extends React.Component {
         const settings = {
             dots: true,
             infinite: true,
-            speed: 500,
+            speed: 2000,
+            autoplay: true,
+            autoplaySpeed: 4000,
             slidesToShow: slidesToScroll ===  null ? 1 : slidesToScroll ,
             slidesToScroll: slidesToScroll ===  null ? 1 : slidesToScroll
           };

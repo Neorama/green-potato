@@ -1054,6 +1054,154 @@ collections:
                 required: true
                 hint: The type of the object
                 default: section_contact
+          - name: section_carousel
+            widget: object
+            label: Carousel Section
+            fields:
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: section_carousel
+              - widget: number
+                name: slidesToScroll
+                label: slides To Scroll
+                required: false
+                default: 1
+              - widget: list
+                name: slides
+                label: add Slides for Carousel
+                required: true
+                fields:
+                  - widget: string
+                    name: content
+                    label: Content for slide
+                    required: false
+                  - widget: image
+                    name: image
+                    label: Image for Slide
+                    required: true
+          - name: section_features
+            widget: object
+            label: Features Section
+            fields:
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: section_features     
+              - widget: string
+                name: title
+                label: Title for section
+                required: false
+              - widget: string
+                name: section_id
+                label: unique Id for this Section
+                required: true
+              - widget: list
+                name: features
+                label: list of features
+                required: true   
+                fields:
+                  - widget: string
+                    name: heading
+                    label: heading for feature
+                    required: true
+                  - widget: string
+                    name: description
+                    label: description for feature
+                    required: true
+                  - widget: image
+                    name: image
+                    label: Image for feature
+                    required: true
+              - widget: list
+                name: actions
+                label: Action Buttons
+                required: false
+                fields:
+                  - widget: string
+                    name: label
+                    label: Label
+                    required: true
+                  - widget: string
+                    name: url
+                    label: URL
+                    required: true
+                  - widget: hidden
+                    name: type
+                    label: Object Type
+                    required: true
+                    hint: The type of the object
+                    default: action
+          - name: section_tabs
+            widget: object
+            label: Tabs Section
+            fields:
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: section_tabs   
+              - widget: string
+                name: section_id
+                label: unique Id for this Section
+                required: true
+              - widget: list
+                name: tabs
+                label: list of tabs
+                required: true   
+                fields:
+                  - widget: string
+                    name: tabName
+                    label: heading for tab
+                    required: true
+                  - widget: string
+                    name: tabId
+                    label: Unique Id for tab
+                    required: true
+                  - widget: string
+                    name: content
+                    label: content for tab
+                    required: true
+                  - widget: image
+                    name: image
+                    label: Image for tab
+                    required: false
+              - widget: list
+                name: actions
+                label: Action Buttons
+                required: false
+                fields:
+                  - widget: string
+                    name: label
+                    label: Label
+                    required: true
+                  - widget: string
+                    name: url
+                    label: URL
+                    required: true
+                  - widget: hidden
+                    name: type
+                    label: Object Type
+                    required: true
+                    hint: The type of the object
+                    default: action
+          - name: section_tabs
+            widget: object
+            label: Latest Blog Posts Section
+            fields:
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: section_posts   
+
+
       - widget: hidden
         name: template
         label: Template

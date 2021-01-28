@@ -26,15 +26,25 @@
             "type": "action",
             "label": "Employment Services",
             "url": "/employment",
+            "content": "online Appointments & reservations",
             "style": "link",
-            "icon": "/images/2.jpg"
+            "icon": "/images/serviceIcon-1.svg"
           },
           {
             "type": "action",
             "label": "Health & Human Services",
             "url": "/health-Human",
+            "content": "online Appointments & reservations",
             "style": "link",
-            "icon": "/images/10.jpg"
+            "icon": "/images/serviceIcon-2.svg"
+          },
+          {
+            "type": "action",
+            "label": "Disability & Aging Services",
+            "content": "online Appointments & reservations",
+            "url": "/disability-aging-services",
+            "style": "link",
+            "icon": "/images/serviceIcon-3.svg"
           }
         ]
       },
@@ -49,22 +59,26 @@
             "type": "action",
             "label": "Mandated Reporter",
             "url": "/mandated-reporter",
+            "content": "online Appointments & reservations",
             "style": "link",
-            "icon": "/images/10.jpg"
+            "icon": "/images/mr-logo-icon.svg"
           },
           {
             "type": "action",
             "label": "Family Provider Portal",
             "url": "/fpp",
             "style": "link",
-            "icon": "/images/10.jpg"
+            "content": "online Appointments & reservations",
+            "icon": "/images/pr-logo-icon.svg"
+            
           },
           {
             "type": "action",
             "label": "Patient Scheduling Solution",
             "url": "/pss",
             "style": "link",
-            "icon": "/images/3.jpg"
+            "content": "online Appointments & reservations",
+            "icon": "/images/pss-logo-icon.svg"
           }
         ]
       },

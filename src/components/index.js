@@ -10,7 +10,7 @@ import SectionCta from './SectionCta';
 import SectionDocs from './SectionDocs';
 import SectionGrid from './SectionGrid';
 import SectionHero from './SectionHero';
-import SectionHero1 from './SectionHero1';
+import SectionHeroAlt from './SectionHeroAlt';
 import SectionPosts from './SectionPosts';
 import SectionContact from './SectionContact';
 import SectionTabs from './SectionTabs';
@@ -33,7 +33,7 @@ export {
     SectionDocs,
     SectionGrid,
     SectionHero,
-    SectionHero1,
+    SectionHeroAlt,
     SectionFeatures,
     SectionClients,
     SectionPosts,
@@ -57,7 +57,7 @@ export default {
     SectionDocs,
     SectionGrid,
     SectionHero,
-    SectionHero1,
+    SectionHeroAlt,
     SectionFeatures,
     SectionClients,
     SectionPosts,

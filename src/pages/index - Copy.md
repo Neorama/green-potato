@@ -111,7 +111,7 @@ sections:
                     <li><i class="fas fa-th"></i> Data Cleanup and Deduplication.</li>
                     <li><i class="fas fa-th"></i> Drive greater productivity, create efficiencies and reduce costs with RPA (Robotic Process Automation) to handle everyday tasks that allow you to focus on individuals.</li>
                   </ul>
-  - type: section_hero1
+  - type: section_heroAlt
     title: Hero Section1
     section_id: hero
     image: images/jamstack.svg
