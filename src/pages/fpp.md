@@ -32,21 +32,21 @@ sections:
     features:
       - heading: Basic.
         description: Mobile-Friendly Initial Inquiry
-        image: images/serviceIcon-2.svg
+        image: images/basic.svg
         # actions:
         # - type: action
         #   label: Read More
         #   url: /docs
       - heading: Intermediate.
         description: Mobile-Friendly Initial Inquiry and an Online Application Process
-        image: images/serviceIcon-2.svg
+        image: images/intermediate.svg
         # actions:
         # - type: action
         #   label: Read More
         #   url: /docs
       - heading: Complete.
         description: Mobile-Friendly Initial Inquiry, Online Application, Placement, Appointment, Expense, Training processes, and more.
-        image: images/serviceIcon-2.svg
+        image: images/completed.svg
         # actions:
         # - type: action
         #   label: Read More
@@ -54,7 +54,7 @@ sections:
 
       - heading: Secure & Dependable.
         description: All Family Provider Portal products utilize Amazon Web Services (AWS). Federal, state, and local agencies rely on AWS for world-class security, protection, and compliance.
-        image: images/serviceIcon-2.svg
+        image: images/secure.svg
         # actions:
         # - type: action
         #   label: Get Start

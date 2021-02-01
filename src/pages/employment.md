@@ -3,10 +3,9 @@ title: Employment
 excerpt: this is an excerpt
 sections:
   - type: section_carousel
+    slidesToScroll: 1
     slides: 
-      - image: images/employ.jpg
-      - image: images/employ.jpg
-      - image: images/employ.jpg
+      - image: /images/employ.jpg
   - type: section_content
     title: Employment Services
     section_id: text-no-img

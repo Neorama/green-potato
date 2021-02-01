@@ -24,7 +24,7 @@ export default class SectionPosts extends React.Component {
                         { _.map(features, (feature, feature_idx) => (
                             <div class="col-md-3 mt-3">
                                 <div className="col pl-0 border-bottom border-warning pb-2">
-                                <img width="50" className="" alt="" src={`${withPrefix(_.get(feature, 'image', null))}`}></img>
+                                <img  width="30%" className="" alt="" src={`${withPrefix(_.get(feature, 'image', null))}`}></img>
                                     </div>
                                 <h5>{htmlToReact(_.get(feature, 'heading', null))}</h5>
                                 <p> {htmlToReact(_.get(feature, 'description', null))}</p>
