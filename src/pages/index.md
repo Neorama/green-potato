@@ -27,21 +27,21 @@ sections:
         actions:
         - type: action
           label: Read More
-          url: /docs
+          url: /employment
       - heading: Health & Human Services
         description: Every child should have the opportunity for healthy growth and development. Communities are stronger when children and families are stable. Those that...
         image: images/serviceIcon-2.svg
         actions:
         - type: action
           label: Read More
-          url: /docs
+          url: /employment
       - heading: Disability & Aging Services
         description: County boards and state developmental disability and aging agencies are committed to improving the quality of life for individuals they serve and their...
         image: images/serviceIcon-3.svg
         actions:
         - type: action
           label: Read More
-          url: /docs
+          url: /employment
 
       - heading: Innovation & Technology Services
         description: Innovation and project delivery are our core competencies. We consistently deliver quality projects on time and on budget. Through fixed price agile...
@@ -49,7 +49,7 @@ sections:
         actions:
         - type: action
           label: Read More
-          url: /docs
+          url: /employment
 
   - type: section_tabs
     tabs: 

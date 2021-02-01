@@ -29,7 +29,7 @@ sections:
   - type: section_content
     title: The Mandated Reporter Products
     section_id: productsSection
-    image: images/image2.png
+    image: images/mrp-products.jpg
     image_position: left
     content: >-
         The law states that mandated reporters must report immediately, without delay. The products allow busy reporters to submit a concern quickly, easily and at any time via a web browser, a mobile device or a chatbot. There are never any wait times. Reporter login information can also be saved speeding up any future submissions.<br />

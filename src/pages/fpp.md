@@ -62,7 +62,7 @@ sections:
   - type: section_content
     title: Basic - Mobile-Friendly Initial Inquiry
     section_id: basicSection
-    image: images/image2.png
+    image: images/basic.jpg
     image_position: left
     content: <ul class="feature-service-list content-page-list">
                         <li><i class="fas fa-th"></i> Families interested in Adoption, Foster Care, and Kinship care can
@@ -79,7 +79,7 @@ sections:
   - type: section_content
     title: Intermediate. Mobile-Friendly Initial Inquiry and an Online Application Process
     section_id: intermediateSection
-    image: images/about-us2.jpg
+    image: images/intermediate.jpg
     image_position: right
     content: <ul class="feature-service-list content-page-list">
 
@@ -98,7 +98,7 @@ sections:
   - type: section_content
     title: Complete. Mobile-Friendly Initial Inquiry and an Online Application Process
     section_id: completeSection
-    image: images/about-us2.jpg
+    image: images/complete.jpg
     image_position: left
     content: <p class="description">Families can view and maintain information about their household and
                         children in their care. The family can also view more information about potential placement
