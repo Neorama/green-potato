@@ -8,57 +8,49 @@ sections:
     slides: 
       - image: images/slide1.jpg
         content: Employment Services
-      - image: images/slide1.jpg
+
+      - image: images/slide2.jpg
+        content: Health and Human Services
+      - image: images/slide3.jpg
         content: Disability & Aging Services
-      - image: images/slide1.jpg
-        content: Innovation & Technology Services1
+      - image: images/slide4.jpg
+        content: Innovation & Technology Services
+      - image: images/slide6.jpg
+        content: Serving since 2004
   - type: section_features
     title: ""
     section_id: features1
     features:
-      - heading: Bridge the gap1.
-        description: This section can contain a subtitle or tagline. The recommended
-          length is
+      - heading: Employment Services
+        description: States are modernizing state government, improving customer service and saving taxpayers money while working to align workers’ skills with business...
+        image: images/serviceIcon-1.svg
+        actions:
+        - type: action
+          label: Read More
+          url: /docs
+      - heading: Health & Human Services
+        description: Every child should have the opportunity for healthy growth and development. Communities are stronger when children and families are stable. Those that...
         image: images/serviceIcon-2.svg
         actions:
         - type: action
           label: Read More
           url: /docs
-      - heading: Contactless Check-In.
-        description: This section can contain a subtitle or tagline. The recommended
-          length is
-        image: images/serviceIcon-2.svg
-        actions:
-        - type: action
-          label: Read More
-          url: /docs
-      - heading: Customizable Care.
-        description: This section can contain a subtitle or tagline. The recommended
-          length is
-        image: images/serviceIcon-2.svg
+      - heading: Disability & Aging Services
+        description: County boards and state developmental disability and aging agencies are committed to improving the quality of life for individuals they serve and their...
+        image: images/serviceIcon-3.svg
         actions:
         - type: action
           label: Read More
           url: /docs
 
-      - heading: Dynamic Efficiency.
-        description: This section can contain a subtitle or tagline. The recommended
-          length is
-        image: images/serviceIcon-2.svg
+      - heading: Innovation & Technology Services
+        description: Innovation and project delivery are our core competencies. We consistently deliver quality projects on time and on budget. Through fixed price agile...
+        image: images/serviceIcon-4.svg
         actions:
         - type: action
-          label: Get Start
+          label: Read More
           url: /docs
-  - type: section_hero
-    title: Making success easy
-    section_id: hero
-    image: images/5.jpg
-    content: We will always remain nimble, flexible and easy to work with, while meeting our clients’ needs with professionalism, honesty, and integrity. We pride ourselves on offering our customers responsive, competent and excellent service.
-    actions:
-      - type: action
-        label: Get Started
-        url: /docs
-        style: primary
+
   - type: section_tabs
     tabs: 
       - tabName: Employment Services
@@ -76,7 +68,7 @@ sections:
                   </ul>
                   </ul>
       - tabName: Health & Human Services
-        image: images/ES.png
+        image: images/HHS.png
         tabId: tab2
         content: >-
           <ul class="feature-service-list">
@@ -92,7 +84,7 @@ sections:
                     <li><i class="fas fa-th"></i> Address Cleanup and Deduplication</li>
                   </ul>
       - tabName: Disability & Aging Services
-        image: images/ES.png
+        image: images/DAS.png
         tabId: tab3
         content: >-
           <ul class="feature-service-list">
@@ -105,23 +97,32 @@ sections:
                     <li><i class="fas fa-th"></i> Drive greater productivity, create efficiencies and reduce costs with RPA (Robotic Process Automation) to handle everyday tasks that allow you to focus on individuals.</li>
                   </ul>
       - tabName: Innovation & Technology Services
-        image: images/ES.png
+        image: images/ITS.png
         tabId: tab1
         content: >-
           <ul class="feature-service-list">
-                    <li><i class="fas fa-th"></i> AI Chat Bot Services that processes large volume of calls a day – 24/7.</li>
-                    <li><i class="fas fa-th"></i> Cloud API integration to move data between Government entities (state and counties).</li>
-                    <li><i class="fas fa-th"></i> Quick Security Penetration Testing Threat Simulation – make sure your data and systems are secure and protected.</li>
-                    <li><i class="fas fa-th"></i> Mobility – Go Mobile! Take your systems with you.</li>
-                    <li><i class="fas fa-th"></i> Infrastructure &amp; PC Upgrades – modernize and have a peace of mind.</li>
-                    <li><i class="fas fa-th"></i> Data Cleanup and Deduplication.</li>
-                    <li><i class="fas fa-th"></i> Drive greater productivity, create efficiencies and reduce costs with RPA (Robotic Process Automation) to handle everyday tasks that allow you to focus on individuals.</li>
+                    <li><i class="fas fa-th"></i> CIO Services</li>
+                    <li><i class="fas fa-th"></i> AI, Bots &amp; Blockchain</li>
+                    <li><i class="fas fa-th"></i> Predictive Analytics &amp; Machine Learning</li>
+                    <li><i class="fas fa-th"></i> Process Automation &amp; RPA</li>
+                    <li><i class="fas fa-th"></i> Application Refresh &amp; Modernization</li>
+                    <li><i class="fas fa-th"></i> Cloud &amp; Infrastructure Modernization</li>
+                    <li><i class="fas fa-th"></i> DevOps</li>
+                    <li><i class="fas fa-th"></i> Test Automation &amp; QA</li>
+                    <li><i class="fas fa-th"></i> PMO</li>
+                    <li><i class="fas fa-th"></i> Practices</li>
                   </ul>
+  - type: section_cta
+    title: Have any questions?
+    section_id: cta
+    subtitle: >-
+      you can call us at <a href="tel:+1 (855) 717-4774"> Toll Free: 1 (855) 717-4774</a>
+    actions:
+      - type: action
+        label: Contact Us
+        url: /contact
+        style: primary
 
-  - type: section_posts
-    title: Latest Posts
-    section_id: recent-posts
-    background: gray
   - type: section_clients
     title: Our Clients
     section_id: ourClients
@@ -136,14 +137,6 @@ sections:
         image: "/images/client1.svg"
       - url: "/fpp"
         image: "/images/client1.svg"
-  - type: section_cta
-    title: The Title of The Call to Action Block
-    section_id: cta
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - type: action
-        label: Get Started
-        url: /docs/getting-started/installation
-        style: primary
+
 template: advanced
 ---

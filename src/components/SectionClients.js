@@ -16,7 +16,7 @@ export default class SectionClients extends React.Component {
 
                 {
                     clients && (
-                        <div className="container client-wrap">
+                        <div className="container client-wrap mb-5">
                             {_.get(section, 'title', null) && (
                                 <h2 className="mb-3 pb-3 text-center">{_.get(section, 'title', null)}</h2>
                             )}

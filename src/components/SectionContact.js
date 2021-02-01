@@ -7,7 +7,7 @@ export default class SectionContact extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className={'block contact-block bg-' + _.get(section, 'background', null) + ' outer'}>
+            <section id={_.get(section, 'section_id', null)} className={'block container contact-block bg-' + _.get(section, 'background', null) + ' outer'}>
               <div className="block-header inner-small">
                 {_.get(section, 'title', null) && (
                 <h2 className="block-title">{_.get(section, 'title', null)}</h2>

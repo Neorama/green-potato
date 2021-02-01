@@ -67,3 +67,16 @@
         color: $gray-700;
     }
 }
+.slick-dots{
+    bottom:25px;
+    li{
+        background-color: #fff;
+        border-radius: 50%;
+        button{
+            &:before{
+                font-size: 10px;
+                top:1px;
+            }
+        }
+    }
+}
