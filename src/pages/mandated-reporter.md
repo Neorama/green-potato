@@ -4,7 +4,7 @@ sections:
   - type: section_heroAlt
     title: Speak Up for Kids Anytime, Any Day, Anywhere
     section_id: mr-hero
-    image: images/mrp.jpg
+    image: images/new/mrp.png
     # actions:
     #   - type: action
     #     label: Read More
@@ -29,7 +29,7 @@ sections:
   - type: section_content
     title: The Mandated Reporter Products
     section_id: productsSection
-    image: images/mrp-products.jpg
+    image: images/new/mrp-products.png
     image_position: left
     content: >-
         The law states that mandated reporters must report immediately, without delay. The products allow busy reporters to submit a concern quickly, easily and at any time via a web browser, a mobile device or a chatbot. There are never any wait times. Reporter login information can also be saved speeding up any future submissions.<br />
