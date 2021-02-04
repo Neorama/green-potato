@@ -478,6 +478,11 @@ collections:
                 hint: >-
                   A unique identifier of the section, must not contain
                   whitespace
+              - widget: string
+                name: wrapCssClass
+                label: special classes for the section block
+                required: false
+                hint:  special classes to make this section a little unique.
               - widget: image
                 name: image
                 label: Image
@@ -1104,10 +1109,6 @@ collections:
                   - widget: string
                     name: tabName
                     label: heading for tab
-                    required: true
-                  - widget: string
-                    name: tabId
-                    label: Unique Id for tab
                     required: true
                   - widget: string
                     name: content

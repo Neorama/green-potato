@@ -80,3 +80,61 @@
         }
     }
 }
+ul.ticklist{
+    li{
+        &:before{
+            content: "";
+            background: url('/images/new/tick.svg');
+            width: 20px;
+            height: 20px;
+            position: relative;
+            display: inline-block;
+            margin-right: 15px;
+            vertical-align: middle;
+            top: -2px;
+    }
+}
+    list-style: none;
+}
+.react-tabs__tab-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.react-tabs__tab{
+    background: #fff;
+    padding: 12px 25px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    font-weight: 700;
+    border:none;
+    border-radius: 0;
+    padding: 1em;
+}
+.react-tabs__tab--selected{
+    background-color: #0072ff;
+    color: #fff;
+    border-radius: 0;
+}
+@media only screen and (min-width: 641px) {
+    
+    .react-tabs__tab-panel{
+        background-color: #fff;
+        padding: 2em;
+    }
+    .react-tabs__tab--selected{
+        border-radius: 0;
+    }
+.react-tabs__tab-list{
+    display: flex;
+    justify-content: space-between;
+    
+    border: none;
+}
+.react-tabs__tab{
+    border:none;
+    flex-grow:1;
+    text-align: center;
+    padding: 1em 2em;
+}
+}

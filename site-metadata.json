@@ -4,7 +4,7 @@
   "header": {
     "type": "header",
     "title": "LibrisTest",
-    "logo_img": "images/strsi_government_solution_logo.svg",
+    "logo_img": "images/new/strsi_logo-white.svg",
     "logo_img_alt": "Libris logo",
     "has_nav": true,
     "nav_links": [

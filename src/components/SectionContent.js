@@ -8,7 +8,7 @@ export default class SectionContent extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className="block block-text outer">
+            <section id={_.get(section, 'section_id', null)} className={`block block-text outer ${_.get(section, 'wrapCssClass', null)}`} >
               <div className="inner">
                 <div className={classNames('grid', 'grid-middle', 'grid-center', {'grid-swap': _.get(section, 'image', null) && (_.get(section, 'image_position', null) === 'right')})}>
                   {_.get(section, 'image', null) && (
@@ -16,10 +16,10 @@ export default class SectionContent extends React.Component {
                     <img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}
-                  <div className="grid-item block-body">
+                  <div className={`grid-item block-body `}>
                     {_.get(section, 'title', null) && (
-                    <div className="block-header">
-                      <h2 className="block-title">{_.get(section, 'title', null)}</h2>
+                    <div className={`block-header `}>
+                      <h2 className={`block-title ${_.get(section, 'cssClass', null)}`}>{_.get(section, 'title', null)}</h2>
                     </div>
                     )}
                     {_.get(section, 'content', null) && (
