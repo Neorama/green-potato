@@ -4,7 +4,7 @@ sections:
   - type: section_heroAlt
     title: The Family Provider Portal
     section_id: fpp1
-    image: images/new/main1.png
+    image: images/new/FPP-02.png
     # actions:
     #   - type: action
     #     label: Read More
@@ -28,7 +28,7 @@ sections:
     title: Accept online Inquiries and Applications
     section_id: feature1
     wrapCssClass: w-75 m-auto  
-    image: images/new/f3.png
+    image: images/new/onlineprocess.png
     image_position: left
     content: Families interested in Adoption, Foster Care, and Kinship care can submit a request to start an application during the day or night. Kinship families can make specific inquiries about children in their family.  
   - type: section_content
@@ -45,7 +45,7 @@ sections:
   - type: section_content
     title: Engage and enable families for better care
     section_id: feature1
-    image: images/new/f3.png
+    image: images/new/family.png
     wrapCssClass: w-75 m-auto  
     image_position: left
     content: >-
@@ -57,7 +57,7 @@ sections:
   - type: section_content
     title: Improve efficiency
     section_id: feature1
-    image: images/new/f3.png
+    image: images/new/efficiency.png
     wrapCssClass: w-75 m-auto  
     image_position: right
     cssClass: text-md-right
@@ -74,8 +74,15 @@ sections:
     image_position: left
     content: All Family Provider Portal products utilize Amazon Web Services (AWS). Federal, state, and local agencies rely on AWS for world-class security, protection, and compliance. The AWS environment provides reliable workload capacity that can automatically scale when and where you need it.
   - type: section_content
-    title: Packages
+    title: Easy to get started
     section_id: packages
+    content: >-
+       Strategic Systems has been supporting Child Welfare systems since it was founded over 16 years ago. Our HuLink Family Provider Portal (FPP) subscription options are convenient and cost-effective. Getting started is as easy as adding a button or a link to your existing web site.
+    actions:
+      - type: action
+        label: Schedule a Demo
+        url: /contact
+        style: primary
   - type: section_tabs
     tabs: 
       - tabName: Basic
@@ -142,10 +149,9 @@ sections:
 
                       </ul>
   - type: section_cta
-    title: Easy to get started
+    title: Schedule a Demo
     section_id: cta
     subtitle: >-
-      Strategic Systems has been supporting Child Welfare systems since it was founded over 16 years ago. Our HuLink Family Provider Portal (FPP) subscription options are convenient and cost-effective. Getting started is as easy as adding a button or a link to your existing web site.<br>
       you can call us at <a href="tel:+1 (855) 717-4774"> Toll Free: 1 (855) 717-4774</a>
     actions:
       - type: action
