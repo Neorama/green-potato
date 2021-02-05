@@ -86,7 +86,7 @@ sections:
   - type: section_tabs
     tabs: 
       - tabName: Basic
-        image: images/new/f3.png
+        image: /images/new/f3.png
         tabId: tab1
         content: >-
           <ul class="feature-service-list content-page-list">
@@ -102,7 +102,7 @@ sections:
                           web developer build and maintain it.</li>
                       </ul>
       - tabName: Intermediate
-        image: images/new/f3.png
+        image: /images/new/f3.png
         tabId: tab1
         content: >-
           <ul class="feature-service-list content-page-list">
@@ -120,7 +120,7 @@ sections:
                           manual processes.</li>
                       </ul>
       - tabName: Complete
-        image: images/new/f3.png
+        image: /images/new/f3.png
         tabId: tab2
         content: >-
             <p class="description">Families can view and maintain information about their household and
