@@ -1,6 +1,6 @@
 .site-header {
   //background: #fff;
-  background: rgb(29, 51, 124);
+  background: #007bff;
     color: #fff;
   // padding-bottom: 1.25em;
   // padding-top: 1.125em;
@@ -44,8 +44,8 @@
 .menu-item {
 
   &.current {
-    color: $color-primary;
-
+    // color: $color-primary;
+    color:#222;
     a.cardlink{
       background-color: $gray-100;
     }
@@ -64,12 +64,13 @@
 #masthead {
   a {
     &:not(.button) {
-      color: inherit;
+      // color: inherit;
+      color: $gray-500;
       display: inline-block;
       text-decoration: none;
 
       &:hover {
-        color: $gray-500;
+        color: $gray-700;
       }
     } 
     &.cardlink{
@@ -101,6 +102,21 @@
 }
 
 @media only screen and (min-width: 801px) {
+  #masthead {
+    a {
+      &:not(.button) {
+         color: inherit;
+        // color: $gray-500;
+        display: inline-block;
+        text-decoration: none;
+      }
+      .textwrap{
+        float:right;
+        p{
+          color: $gray-500;
+        }
+      }
+    }}  
   .site-header{
   position: relative;
 
@@ -398,6 +414,7 @@
   }
   .cardlink{
     .textwrap{
+      color:#888!important;
       padding-left: 20px;
       display: inline-block;
       width: calc(100% - 80px);

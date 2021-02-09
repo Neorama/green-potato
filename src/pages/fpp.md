@@ -37,7 +37,7 @@ sections:
     wrapCssClass: w-75 m-auto  
     image: images/new/license.png
     image_position: right
-    cssClass: text-md-right
+    
     content: >-
       <ul class="ticklist"> <li>The mobile-friendly portal provides an efficient online application process, which helps families and staff.</li>
       <li>The online portal guides the family through submitting application information, children's preferences, references and upload necessary documents.</li></ul>
@@ -60,7 +60,7 @@ sections:
     image: images/new/efficiency.png
     wrapCssClass: w-75 m-auto  
     image_position: right
-    cssClass: text-md-right
+    
     content: >-
       Utilize an efficient online licensing process, which helps everyone.
       Create alerts for key milestones, renewals, and visits.
@@ -86,7 +86,7 @@ sections:
   - type: section_tabs
     tabs: 
       - tabName: Basic
-        image: /images/new/f3.png
+        image: /images/new/basicpackage.png
         tabId: tab1
         content: >-
           <ul class="feature-service-list content-page-list">
@@ -102,7 +102,7 @@ sections:
                           web developer build and maintain it.</li>
                       </ul>
       - tabName: Intermediate
-        image: /images/new/f3.png
+        image: /images/new/intermediatepackage.png
         tabId: tab1
         content: >-
           <ul class="feature-service-list content-page-list">
@@ -120,7 +120,7 @@ sections:
                           manual processes.</li>
                       </ul>
       - tabName: Complete
-        image: /images/new/f3.png
+        image: /images/new/completepackage.png
         tabId: tab2
         content: >-
             <p class="description">Families can view and maintain information about their household and

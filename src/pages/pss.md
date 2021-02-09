@@ -38,14 +38,13 @@ sections:
     wrapCssClass: w-75 m-auto  
     image: images/new/easy-setup.png
     image_position: right
-    cssClass: text-md-right
     content: >-
       <ul class="ticklist"> <li>Choose who is eligible to book an appointment - target population, age range, passwords, etc.</li>
       <li>Understand location capacity, demand, and wait times</li>
       <li>Monitor and adjust capacity</li></ul>
 
   - type: section_content
-    title: patients self-service
+    title: Patients self-service
     section_id: feature1
     image: images/new/selfservice.png
     wrapCssClass: w-75 m-auto  
@@ -63,7 +62,6 @@ sections:
     image: images/new/inventory.png
     wrapCssClass: w-75 m-auto  
     image_position: right
-    cssClass: text-md-right
     content: >-
       <ul class="ticklist">
         <li> Control your appointments based on inventory availability.</li>
@@ -76,7 +74,6 @@ sections:
     image: images/new/efficiency.png
     wrapCssClass: w-75 m-auto  
     image_position: left
-    cssClass: text-md-right
     content: >-
       <ul class="ticklist">
         <li>Automatic schedule generation</li>

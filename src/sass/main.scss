@@ -94,6 +94,7 @@ ul.ticklist{
             top: -2px;
     }
 }
+padding-left: 0;
     list-style: none;
 }
 .react-tabs__tab-list{
@@ -128,7 +129,6 @@ ul.ticklist{
 .react-tabs__tab-list{
     display: flex;
     justify-content: space-between;
-    
     border: none;
 }
 .react-tabs__tab{

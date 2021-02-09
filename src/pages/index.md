@@ -1,6 +1,6 @@
 ---
 title: Home
-excerpt: this is an excerpt
+excerpt: Startegic Systems Home
 sections:
 
   - type: section_carousel
